@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Firebase wish List",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scs87/Wish-List-Firebase.git"
+  },
+  "author": "Sergio Clemente Sanz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scs87/Wish-List-Firebase/issues"
+  },
+  "homepage": "https://github.com/scs87/Wish-List-Firebase#readme"
+}
