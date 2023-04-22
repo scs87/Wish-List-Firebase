@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/scs87/Wish-List-Firebase/issues"
   },
-  "homepage": "https://github.com/scs87/Wish-List-Firebase#readme"
+  "homepage": "https://github.com/scs87/Wish-List-Firebase#readme",
+  "dependencies": {
+    "postgres": "^3.3.4"
+  }
 }

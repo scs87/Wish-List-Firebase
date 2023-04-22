@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 0 ;
+    padding: 0;
     background-color: rgb(230, 237, 235);
     display: flex;
     justify-content: center;
@@ -8,21 +8,44 @@ body {
 }
 
 
-.WishApp{
+.WishApp {
     background-color: rgb(255, 255, 255);
     box-shadow: rgb(0, 0, 0, 0.05) 0 6px 24px, rgba(0, 0, 0, 0.08) 0 0 0 1px;
     border-radius: 10px;
     padding: 10px;
     width: 800px;
     margin-top: 50px;
-
-
-
 }
 
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    
+
+}
+.btn-container .añadir{
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 12px;
+    background-color: transparent;
+    font-size: 10px;
+    
+}
+
+.btn-container .salir{
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 12px;
+    background-color: transparent;
+    font-size: 10px;
+    
+}
 
 .list-header {
-
-   
-
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: rgb(0, 0, 0, 0.05) 1px solid;
 }
+
