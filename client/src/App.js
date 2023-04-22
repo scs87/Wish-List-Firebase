@@ -3,7 +3,7 @@ import ListHeader from './components/ListHeader'
 const WishApp = () => {
   return (
     <div className = "WishApp">
-      <ListHeader></ListHeader>
+      <ListHeader listName = {'✏️ Cosas por hacer'}/>
     </div>
   );
 }
