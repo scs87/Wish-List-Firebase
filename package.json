@@ -1,0 +1,24 @@
+{
+  "name": "wish-list-firebase",
+  "version": "1.0.0",
+  "description": "",
+  
+  "scripts": {
+    "build": "if-env TYPE=server && (cd server && npm install) || (cd client && npm intall)",
+    "server":"node ./server/server.js",
+    "client":"cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scs87/Wish-List-Firebase.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scs87/Wish-List-Firebase/issues"
+  },
+  "homepage": "https://github.com/scs87/Wish-List-Firebase#readme",
+  "dependencies": {
+    "if-env": "^1.0.4"
+  }
+}

@@ -1,7 +1,9 @@
+import ListHeader from './components/ListHeader'
+
 const WishApp = () => {
   return (
-    <div className="App">
-      
+    <div className = "WishApp">
+      <ListHeader></ListHeader>
     </div>
   );
 }
